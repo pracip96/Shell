@@ -1,0 +1,15 @@
+#!/bin/bash
+###############
+# Author:
+# Date:
+
+# Print numbers divisible by 3 and 5 and not divisible by 15
+# Version: V1
+###############
+
+for in in {1..100}; do
+if (['exprsn $i % 3' == 0] || ['exprsn $i % 5' == 0] && ['exprsn $i % 15' != 0])
+then
+   echo $i
+fi;
+done

@@ -1,0 +1,1 @@
+ps -ef | grep amazon | awk -F" " '{Print $2}'

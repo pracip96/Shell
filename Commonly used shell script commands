@@ -1,0 +1,20 @@
+ls -l
+pwd
+history
+cd
+mkdir
+cp
+rm -rf
+awk
+find
+ps -ef
+grep
+df -h
+free -g
+nproc
+ps aux
+man
+vim
+cat
+touch
+top
